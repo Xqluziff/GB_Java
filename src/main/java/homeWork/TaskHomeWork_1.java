@@ -10,16 +10,16 @@ public class TaskHomeWork_1 {
         System.out.println(Arrays.toString(mas));
 
 
-        System.out.println("\n===============2 задача========================");
+        System.out.println("\n=============== 2 задача========================");
         findMinMax();
 
-        System.out.println("\n===============3 задача========================");
+        System.out.println("\n=============== 3 задача========================");
         fillDiagonalsMatrix();
 
-        System.out.println("\n===============4 задача========================");
+        System.out.println("\n=============== 4 задача========================");
         userGreeting();
 
-        System.out.println("\n===============5 задача========================");
+        System.out.println("\n=============== 5 задача========================");
         int[] mas2 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         Scanner in = new Scanner(System.in);
         System.out.println("Введите шаг сдвига");
