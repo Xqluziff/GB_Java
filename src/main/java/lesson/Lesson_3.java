@@ -13,7 +13,7 @@ public class Lesson_3 {
         }
         for (int i = 0; i < size; i++) {
 
-            //System.out.printf("%s : %d\n", planetsNamesStringArray[i], Collections.frequency(list, planetsNamesStringArray[i]));
+            System.out.printf("%s : %d\n", planetsNamesStringArray[i], Collections.frequency(list, planetsNamesStringArray[i]));
         }
 
         Collections.sort(list);
@@ -23,7 +23,7 @@ public class Lesson_3 {
                 i--;
             }
         }
-        //System.out.println(list);
+        System.out.println(list);
 //
 //        Set<String> hash = new HashSet<>(list);
 //        System.out.println(hash);

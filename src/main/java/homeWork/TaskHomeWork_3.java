@@ -72,14 +72,7 @@ public class TaskHomeWork_3 {
                 }
             }
             System.out.println(library);
-
-
-
-
         }
-
-
-
     }
 
     public static void planetReplayDelete(String[] planets){
@@ -103,5 +96,4 @@ public class TaskHomeWork_3 {
         }
         System.out.println(list);
     }
-
 }
