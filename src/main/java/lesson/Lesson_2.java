@@ -2,8 +2,8 @@ package lesson;
 
 public class Lesson_2 {
     public static void main(String[] args) {
-        System.out.println(task1());
-        //System.out.println(task2());
+        //System.out.println(task1());
+        task2();
         //System.out.println(task3("папа"));
 
     }
@@ -35,8 +35,9 @@ public class Lesson_2 {
             }
 
             counter++;
+            result.append((trash.charAt(trash.length() - 1))).append(counter);
         }
-        result.append((trash.charAt(trash.length() - 1))).append(counter);
+
         System.out.println(result);
 
     }
