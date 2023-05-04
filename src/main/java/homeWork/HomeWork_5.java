@@ -8,11 +8,13 @@ public class HomeWork_5 {
     public static void main(String[] args) {
 
         // ====== 1 задание=======
-        //addEmployee(mapEmployee);
-        //sortEmployee(mapEmployee);
+        addEmployee(mapEmployee);
+        sortEmployee(mapEmployee);
 
         // ====== 2 задание ======
-        //getReplayName(mapEmployee);
+        getReplayName(mapEmployee);
+
+        // ====== 3 задание ======
         ferzy();
 
 
