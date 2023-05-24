@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Notebook {
     public int id;
-    float diagonal;
+    public float diagonal;
     public String name;
     public String model;
     public String processor;
