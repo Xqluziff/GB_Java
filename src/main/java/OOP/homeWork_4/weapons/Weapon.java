@@ -1,0 +1,7 @@
+package OOP.homeWork_4.weapons;
+
+public interface Weapon {
+    int damage();
+
+
+}
