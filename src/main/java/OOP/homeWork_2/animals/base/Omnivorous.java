@@ -1,4 +1,4 @@
-package OOP.HomeWork_2.animals.base;
+package OOP.homeWork_2.animals.base;
 
 public class Omnivorous extends Animal {
     public Omnivorous(String name) {

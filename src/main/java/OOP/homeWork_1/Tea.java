@@ -1,4 +1,4 @@
-package OOP.HomeWork_1;
+package OOP.homeWork_1;
 
 public class Tea extends HotDrink{
     private String lime;

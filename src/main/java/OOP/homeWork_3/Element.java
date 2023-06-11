@@ -1,4 +1,4 @@
-package OOP.HomeWork_3;
+package OOP.homeWork_3;
 
 public class Element {
     private Object data;

@@ -1,6 +1,4 @@
-package OOP.HomeWork_1;
-
-import java.util.SortedMap;
+package OOP.homeWork_1;
 
 public class Drink {
     private String  name;

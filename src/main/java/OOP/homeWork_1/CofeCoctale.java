@@ -1,4 +1,4 @@
-package OOP.HomeWork_1;
+package OOP.homeWork_1;
 
 public class CofeCoctale extends HotDrink{
     private String syrop;

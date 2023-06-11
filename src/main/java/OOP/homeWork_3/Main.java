@@ -1,4 +1,4 @@
-package OOP.HomeWork_3;
+package OOP.homeWork_3;
 
 import java.util.Iterator;
 

@@ -1,8 +1,8 @@
-package OOP.HomeWork_2;
+package OOP.homeWork_2;
 
-import OOP.HomeWork_2.animals.Karp;
-import OOP.HomeWork_2.animals.Piranhas;
-import OOP.HomeWork_2.animals.Turtle;
+import OOP.homeWork_2.animals.Karp;
+import OOP.homeWork_2.animals.Piranhas;
+import OOP.homeWork_2.animals.Turtle;
 
 public class Main {
     public static void main(String[] args) {

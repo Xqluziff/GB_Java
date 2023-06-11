@@ -1,10 +1,8 @@
-package OOP.HomeWork_2.animals;
+package OOP.homeWork_2.animals;
 
-import OOP.HomeWork_2.animals.base.Pridator;
-import OOP.HomeWork_2.intreface.Reproduction;
-import OOP.HomeWork_2.intreface.SwimmingSpeed;
-
-import java.lang.annotation.Annotation;
+import OOP.homeWork_2.animals.base.Pridator;
+import OOP.homeWork_2.intreface.Reproduction;
+import OOP.homeWork_2.intreface.SwimmingSpeed;
 
 public class Piranhas extends Pridator implements Reproduction, SwimmingSpeed {
     public Piranhas(String name) {

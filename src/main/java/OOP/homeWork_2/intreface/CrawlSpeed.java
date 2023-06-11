@@ -1,4 +1,4 @@
-package OOP.HomeWork_2.intreface;
+package OOP.homeWork_2.intreface;
 
 public interface CrawlSpeed {
     float getCrawSpeed();

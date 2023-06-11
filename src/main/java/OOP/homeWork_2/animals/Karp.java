@@ -1,8 +1,8 @@
-package OOP.HomeWork_2.animals;
+package OOP.homeWork_2.animals;
 
-import OOP.HomeWork_2.animals.base.Herbivores;
-import OOP.HomeWork_2.intreface.Reproduction;
-import OOP.HomeWork_2.intreface.SwimmingSpeed;
+import OOP.homeWork_2.animals.base.Herbivores;
+import OOP.homeWork_2.intreface.Reproduction;
+import OOP.homeWork_2.intreface.SwimmingSpeed;
 
 public class Karp extends Herbivores implements Reproduction, SwimmingSpeed {
     public Karp(String name) {

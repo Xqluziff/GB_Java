@@ -1,7 +1,7 @@
-package OOP.HomeWork_2;
+package OOP.homeWork_2;
 
-import OOP.HomeWork_2.animals.base.Animal;
-import OOP.HomeWork_2.intreface.SwimmingSpeed;
+import OOP.homeWork_2.animals.base.Animal;
+import OOP.homeWork_2.intreface.SwimmingSpeed;
 
 import java.util.ArrayList;
 import java.util.List;

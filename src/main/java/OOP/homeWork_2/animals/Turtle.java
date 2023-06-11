@@ -1,9 +1,9 @@
-package OOP.HomeWork_2.animals;
+package OOP.homeWork_2.animals;
 
-import OOP.HomeWork_2.animals.base.Omnivorous;
-import OOP.HomeWork_2.intreface.CrawlSpeed;
-import OOP.HomeWork_2.intreface.Reproduction;
-import OOP.HomeWork_2.intreface.SwimmingSpeed;
+import OOP.homeWork_2.animals.base.Omnivorous;
+import OOP.homeWork_2.intreface.CrawlSpeed;
+import OOP.homeWork_2.intreface.Reproduction;
+import OOP.homeWork_2.intreface.SwimmingSpeed;
 
 public class Turtle extends Omnivorous implements Reproduction, SwimmingSpeed, CrawlSpeed {
     public Turtle(String name) {

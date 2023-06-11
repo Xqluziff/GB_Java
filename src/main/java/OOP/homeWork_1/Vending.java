@@ -1,4 +1,4 @@
-package OOP.HomeWork_1;
+package OOP.homeWork_1;
 
 import java.util.ArrayList;
 import java.util.List;
