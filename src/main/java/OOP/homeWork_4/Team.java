@@ -23,6 +23,7 @@ public class Team<T extends Warrior> implements Iterable<T> {
         int teamHealth = 0;
         for (T t : this) {
             teamHealth += t.getHealthPoint();
+
         }
         return teamHealth;
     }
@@ -51,7 +52,7 @@ public class Team<T extends Warrior> implements Iterable<T> {
     public int getProtection(){
         int teamProtection = 0;
         for(T t: this){
-            teamProtection += t.protection();
+            teamProtection += t.getArmor().protection();
         }
         return teamProtection;
     }

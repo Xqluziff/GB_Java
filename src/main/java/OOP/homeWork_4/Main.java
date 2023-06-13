@@ -1,5 +1,7 @@
 package OOP.homeWork_4;
 
+import OOP.homeWork_4.armors.Armor;
+import OOP.homeWork_4.armors.Shield;
 import OOP.homeWork_4.warriors.Archer;
 import OOP.homeWork_4.warriors.Infantry;
 import OOP.homeWork_4.warriors.Warrior;
@@ -39,11 +41,11 @@ public class Main {
 //        System.out.println("----4----");
 //        System.out.println(team4);
 
-        Battle battle = new Battle(new Infantry("Воин 1", 100, new Sword()), new Infantry("Воин 2", 100, new Axe()));
+        Battle battle = new Battle(new Infantry("Воин 1", 100, new Sword(), new Shield()), new Infantry("Воин 2", 100, new Axe(),new Shield()));
         battle.fight();
 
-        Battle battle2 = new Battle(new Archer( "Лучник 1", 100, new Bow()), new Archer("Лучник 2", 100, new CrossBow()));
-        battle2.fight();
+        /*Battle battle2 = new Battle(new Archer( "Лучник 1", 100, new Bow(), new Shield()), new Archer("Лучник 2", 100, new CrossBow(),new Shield()));
+        battle2.fight();*/
 
 
 
